@@ -1,6 +1,6 @@
 # DataBase
 
-## 👉 Adding Field Names 👈
+## 👉 Adding Field Names (Table) 👈
 ### Ex: field names: id, name, role, salary, age, phone
 ```
 CREATE TABLE "employees" (
@@ -13,7 +13,7 @@ CREATE TABLE "employees" (
 	"phone"	INTEGER NOT NULL
 );
 ```
-## 👉Adding Details in Field Names👈
+## 👉Adding Details in Field Names (Table)👈
 ### Adding full details on field names... 
 ```
 INSERT INTO employees
