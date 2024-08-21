@@ -10,7 +10,8 @@ CREATE TABLE "employees" (
 	"salary"	INTEGER NOT NULL,
 	"age"	INTEGER NOT NULL,
 	"address"	TEXT,
-	"phone"	INTEGER NOT NULL
+	"phone"	INTEGER NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT)
 );
 ```
 ## 👉Adding Details in Field Names (Table)👈
