@@ -4,12 +4,12 @@
 ### Ex: field names: id, name, role, salary, age, phone
 ```
 CREATE TABLE "employees" (
-	"id"	INTEGER NOT NULL,
+	"id"	INTEGER NOT NULL UNIQUE,
 	"name"	TEXT NOT NULL,
-	"role"	INTEGER NOT NULL,
+	"role"	TEXT NOT NULL,
 	"salary"	INTEGER NOT NULL,
 	"age"	INTEGER NOT NULL,
-	"address"	INTEGER,
+	"address"	TEXT,
 	"phone"	INTEGER NOT NULL
 );
 ```
