@@ -14,10 +14,18 @@ CREATE TABLE "employees" (
 );
 ```
 ## 👉Adding Details in Field Names (Table)👈
-### Adding full details on field names... 
 ```
 INSERT INTO employees
 	(id, name, role, salary, age, address, phone)
 VALUES
 	(1, "RaviNarayan", "Launch Executive", 14000, 21, "Surat", 9510421589);
+```
+
+## 👉Adding Multiple Details in Field Names (Table)👈
+```
+INSERT INTO employees
+	(id, name, role, salary, age, address, phone)
+VALUES
+	(1, "RaviNarayan", "Launch Executive", 14000, 21, "Surat", 9510421589),
+	(2, "Sajid", "Electrician", 24000, 22, "Surat", 9316555468);
 ```
